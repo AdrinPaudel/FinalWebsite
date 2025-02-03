@@ -1,0 +1,148 @@
+#overallContainer {
+    padding-top: 7rem;
+  }
+  
+  .policyPage {
+    display: flex;
+    gap: 20px; /* Adds spacing between policies and filters */
+    align-items: flex-start;
+    max-width: 95%;
+    margin: 0 auto;
+  }
+  
+  .policyListContainer {
+    flex: 1;
+    padding: 20px;
+    background: var(--palewhite);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px var(--secondaryA);
+    text-align: center;
+  }
+  
+  .policyGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .policyCard {
+    background: var(--light);
+    color: var(--darker-secondary);
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid var(--secondaryA);
+    box-shadow: 0 4px 8px var(--secondaryA);
+    text-align: left;
+  }
+  
+  .policyCard h2 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+  
+  .policyId {
+    font-weight: bold;
+    color: var(--secondary);
+    margin-bottom: 8px;
+  }
+  
+  .csr {
+    font-weight: bold;
+    color: var(--green);
+  }
+  
+  .addons {
+    margin-top: 10px;
+  }
+  
+  .addons ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .addons li {
+    font-size: 0.95rem;
+    color: var(--darker-secondary);
+    line-height: 1.5;
+  }
+  
+  /* Move filter to the right */
+  .filterSidebar {
+    width: 220px;
+    padding-left: 20px;
+  }
+  
+  .filterSidebar h2 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: var(--secondary);
+  }
+  
+  .filterSidebar h3 {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    color: var(--darker-secondary);
+  }
+  
+  .filterSidebar button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid var(--secondaryA);
+    background: none;
+    color: var(--darker-secondary);
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  /* Highlight selected filter */
+  .filterSidebar button.active {
+    font-weight: bold;
+    border-color: var(--secondary);
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .policyGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  
+  /* Ensure maximum 3 policies per row */
+  @media (min-width: 900px) {
+    .policyGrid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  /* Adjust for medium screens */
+  @media (max-width: 900px) {
+    .policyGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  /* Adjust for small screens */
+  @media (max-width: 600px) {
+    .policyGrid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  

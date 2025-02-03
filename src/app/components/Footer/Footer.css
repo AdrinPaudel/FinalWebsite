@@ -1,0 +1,110 @@
+#footerContainer{
+    height: 60vh;
+    width: 100vw;
+    background-color: var(--elBackground);
+    /* font-weight: bold; */
+    display: flex;
+    flex-direction: column;
+
+}
+#upperContent{
+    width: 100vw;
+    flex: 7;
+    display: flex;
+    align-items: center; 
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+#lowerContent{
+    width: 100vw;
+    flex: 1;
+}
+#contentBr{
+    width: 100%;
+    height: 0.1px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+#resources{
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#resourcesCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    color: var(--palewhite);
+    font-size:small;
+    height: auto;
+    width: 20vw;
+    padding: 0.8em;
+    border-radius: 0.5vh;
+}
+
+.resText{
+    margin-bottom: 1em;
+}
+
+#contact{
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#marginDiv{
+    width: 0.1px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+#contactInfo{
+    width: 23vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+#followUs{
+    width: 18vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contactEl{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border-radius: 0.5vh;
+    font-size: small;
+    color: var(--palewhite);
+}
+
+#lowerContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em;
+    font-size: 0.6em;
+    color: var(--palewhite);
+}
+
+#footerContainer a {
+    color: var(--palewhite) !important; /* Keep text white */
+    font-size: small;
+    font-weight: normal !important; /* Prevent unwanted bold text */
+    font-family: inherit !important; /* Keep site font */
+    text-decoration: none !important; /* No underline by default */
+    cursor: pointer; /* Change mouse to pointer */
+}
+
+#footerContainer a:hover {
+    text-decoration: underline !important; /* Underline on hover */
+    cursor: pointer; /* Pointer on hover */
+}

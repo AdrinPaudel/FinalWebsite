@@ -1,0 +1,232 @@
+#navBar-container{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    position: fixed;
+    z-index: 9;
+    backdrop-filter: blur(10px);
+}
+#navBar{
+    width: 100%;
+    /* backdrop-filter: blur(10px); */
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.sideNav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.leftNav{
+    flex:8;
+    display: flex;
+}
+.logo{
+  flex: 1;
+  /* background-image: url("/logo.png"); */
+  margin-left: 3vw;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#logo{
+    cursor: pointer;
+}
+.rightNav{
+    flex:1;
+    display: flex;
+    padding-right: 4vw;
+}
+.navItem{
+    height: 5vh;
+    flex: 1;
+    position: relative;
+    margin: 0.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#themeContainer{
+    background-color: var(--secondary);
+    height: 5vh;
+    box-shadow: inset 0 0 2vh var(--primary); 
+    aspect-ratio: 2/1;
+    transform: translate(-50%, 0%);
+    transition: 0.5s ease-in-out;
+    border-radius: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.icon-container{
+    flex: 1;
+    height: 6vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1vw;
+    aspect-ratio: 1;
+    display: flex;
+}
+
+#themeSelector{
+    position: relative;
+    height: calc(100%);
+    aspect-ratio: 1;
+    background: linear-gradient(to right, var(--primary), var(--secondary));
+    background-size: 200% 100%;
+    background-position: 0 0;
+    transition: background-position 0.3s ease-in-out, transform 0.2s ease, box-shadow 0.2s ease;
+    transform: translate(-50%, 0%);
+    border-radius: 2vw;
+    z-index: 2;
+    position: absolute;
+}
+
+#themeContainer img{
+    height: 2vh;
+    width: auto;
+    z-index: 3;
+}
+
+#themeContainer:hover #themeSelector{
+  background-position: 100% 0;
+  box-shadow: 0 0 2vh var(--primary);
+}
+
+#moreOptions{
+    --state:1;
+    --size: 6vh;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    height: var(--size);
+    width: auto;
+    flex-direction: column;
+    border-radius: 0.5vh;
+    z-index: 4;
+}
+.optionsBar{
+    background-color: var(--primary);
+    backdrop-filter: blur(10px);
+    width: 2.6vh;
+    padding: 0.25vh;
+    margin: 0.3vh;
+    border-radius: 4vh;
+    transform-origin: center;
+    transition: 0.5s;
+}
+#moreOptions:hover .optionsBar{
+    background-color: var(--secondary);
+ }
+
+
+#optionsCard{
+    padding: 1vh;
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 1.5vh;
+    right: 4vw;
+    z-index: 3;
+    background-color: var(--secondaryA);
+    box-shadow: inset 0 0 4vh var(--primary), 0 0 4vh var(--primary);
+    backdrop-filter: blur(20px);
+    font-weight: bold;
+    border-radius: 1.3vh;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.optionsOption{
+    color: var(--palewhite);
+    width: 100%;
+    padding-left: 2vh;
+    padding-top: 1vh;
+    padding-right: 2vh;
+    padding-bottom: 1vh;
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: flex-start;
+    white-space: nowrap;
+    border-radius: 2vh;
+    cursor: pointer;
+}
+.optionsOption > *{
+    cursor: pointer;
+}
+
+#emptySpace{
+    height: 6vh;
+    width: 100%;
+}
+.optionsOption:hover{
+    background-color: var(--darker-secondary);
+    transition: 0.4s ease;
+    box-shadow: 0 0 2vh var(--darker-secondary);
+}
+
+.optionImgContainer{
+    aspect-ratio: 1;
+    height: 3vh;
+    display: flex;
+    max-width: 10%;
+    opacity: 0.8;
+    flex: 1;
+}
+
+.spandiv{
+    flex: 8;
+}
+.divElements{
+    margin: 1vh;
+}
+
+.hidden{
+  animation-name: slideOut;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  transform: translateX(10vw);
+}
+
+.visible{
+  animation-name: slideIn;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  transform: translateX(-10vh);
+}
+
+@keyframes slideOut {
+  from{
+    display: block;
+    opacity: 1;
+    transform: translateX(-10vh);
+  }
+  to{
+    opacity: 0;
+    transform: translateX(10vw);
+    display: none;
+  }
+}
+
+@keyframes slideIn {
+  from{
+    display: block;
+    opacity: 0;
+    transform: translateX(10vw);
+  }
+  to{
+    display: block;
+    opacity: 1;
+    transform: translateX(-10vh);
+  }
+}

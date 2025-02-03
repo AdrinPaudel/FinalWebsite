@@ -1,0 +1,7 @@
+{
+    "1": { "loading1": 1, "loading2": 0.98, "loading3": 0.97 },
+    "0.5": { "loading1": 1.01, "loading2": 1.0, "loading3": 0.99 },
+    "0.25": { "loading1": 1.03, "loading2": 1.2, "loading3": 1.0 },
+    "0.083": { "loading1": 1.07, "loading2": 1.5, "loading3": 1.2 }
+  }
+  

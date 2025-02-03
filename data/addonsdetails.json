@@ -1,0 +1,190 @@
+{
+    "free_addons": [
+        {
+            "name": "Loan Against Insured Amount",
+            "description": "Allows policyholders to take a loan of up to 80% of the insured amount. The interest rate is determined by the insurance company based on current market conditions.",
+            "benefits": ["Financial flexibility during emergencies without surrendering the policy"],
+            "conditions": [
+                "Loan amount cannot exceed 80% of the insured sum",
+                "Interest rate may vary"
+            ],
+            "eligibility": "According to the policy terms and conditions",
+            "cost": "Free, no need to pay"
+        },
+        {
+            "name": "Grace Period for Payment",
+            "description": "Offers an additional 30 days to pay the premium without the policy being canceled.",
+            "benefits": ["Provides additional time to manage premium payments in case of delays"],
+            "conditions": [
+                "Policyholder must pay within the grace period to keep the policy active"
+            ],
+            "eligibility": "According to the policy terms and conditions",
+            "cost": "Free, no need to pay"
+        },
+        {
+            "name": "Discount for Salaried Employees",
+            "description": "Provides a 2% discount on the premium for salaried individuals earning at least 30,000 Nepali rupees per month.",
+            "benefits": ["Reduces premium costs for eligible policyholders"],
+            "conditions": ["Proof of employment and salary required"],
+            "eligibility": "According to the policy terms and conditions",
+            "cost": "Free, no need to pay"
+        },
+        {
+            "name": "Online Discount",
+            "description": "Offers a 2-3% discount on the premium when the policy is purchased online.",
+            "benefits": ["Encourages online policy purchases with cost savings"],
+            "conditions": [
+                "Discount is only applicable to policies purchased via the insurance company’s website"
+            ],
+            "eligibility": "According to the policy terms and conditions",
+            "cost": "Free, no need to pay"
+        },
+        {
+            "name": "Free Annual Health Checkup Whole Body",
+            "description": "Provides an annual health checkup benefit worth 10% of the insured amount.",
+            "benefits": ["Early detection of health issues through partner hospitals"],
+            "conditions": ["Only selected tests are covered at partner hospitals"],
+            "eligibility": "According to the policy terms and conditions",
+            "cost": "Free, no need to pay"
+        },
+        {
+            "name": "Free Lookup Period",
+            "description": "Allows policyholders time to review and compare policies without immediate commitment.",
+            "benefits": ["Flexibility to make informed decisions before continuing with the policy"],
+            "conditions": ["Valid for a limited timeframe as per policy terms"],
+            "eligibility": "According to the policy terms and conditions",
+            "cost": "Free, no need to pay"
+        },
+        {
+            "name": "Policy Conversion",
+            "description": "Enables conversion from one policy type to another at a reduced cost.",
+            "benefits": ["Flexibility to adapt policies to changing needs"],
+            "conditions": ["Subject to conversion fees as per policy terms"],
+            "eligibility": "According to the policy terms and conditions",
+            "cost": "Free, no need to pay"
+        }
+    ],
+    "paid_addons": [
+        {
+            "name": "Accidental Death Benefit",
+            "description": "Provides an additional payout equal to the insured amount in case of accidental death.",
+            "benefits": ["Financial security for the family in the event of accidental death"],
+            "conditions": ["Valid only for accidental death claims", "Policy must be active"],
+            "eligibility": "According to the policy terms and conditions",
+            "cost": "Rs. 1 per 1000 insured amount"
+        },
+        {
+            "name": "Term Rider",
+            "description": "Provides the insured amount in case of the policyholder’s death, regardless of the cause.",
+            "benefits": ["Offers additional life coverage beyond the base policy"],
+            "conditions": ["Must be added during policy issuance"],
+            "eligibility": "According to the policy terms and conditions",
+            "cost": "Rs. 5 per 1000 insured amount"
+        },
+        {
+            "name": "Critical Illness Payout",
+            "description": "Provides a full payout of the insured amount upon diagnosis of a listed critical illness.",
+            "benefits": ["Financial support for medical treatments and recovery"],
+            "conditions": [
+                "Valid for specific critical illnesses as per policy terms",
+                "Policy must be active"
+            ],
+            "eligibility": "According to the policy terms and conditions",
+            "cost": "Rs. 2 per 1000 insured amount"
+        },
+        {
+            "name": "Critical Illness No Premium Pay",
+            "description": "If diagnosed with a critical illness during the term, future premiums are waived while the insured amount is paid at the end of the term.",
+            "benefits": ["Reduces financial burden while ensuring coverage remains intact"],
+            "conditions": ["Valid for listed critical illnesses as per policy terms"],
+            "eligibility": "According to the policy terms and conditions",
+            "cost": "Rs. 1 per 1000 insured amount"
+        },
+        {
+            "name": "Spouse Rider",
+            "description": "Provides insurance coverage for the spouse equal to the policyholder’s insured amount.",
+            "benefits": ["Offers financial protection for the spouse under the same policy"],
+            "conditions": ["Policyholder and spouse must both meet policy requirements"],
+            "eligibility": "According to the policy terms and conditions",
+            "cost": "Rs. 10 per 1000 insured amount"
+        },
+        {
+            "name": "Disability Payout",
+            "description": "Pays out the insured amount as if it were a death claim in the event of a disability.",
+            "benefits": ["Provides financial support during permanent disability"],
+            "conditions": ["Valid only for specified disabilities as per policy terms"],
+            "eligibility": "According to the policy terms and conditions",
+            "cost": "Rs. 2 per 1000 insured amount"
+        },
+        {
+            "name": "Disability No Premium Pay",
+            "description": "Waives future premiums if the policyholder becomes disabled while continuing coverage until the term ends.",
+            "benefits": ["Eases financial burden during disability while maintaining coverage"],
+            "conditions": ["Valid for specific disabilities as per policy terms"],
+            "eligibility": "According to the policy terms and conditions",
+            "cost": "Rs. 1 per 1000 insured amount"
+        },
+        {
+            "name": "Child Education Rider",
+            "description": "Allocates 30% of the insured amount for a child’s education expenses, up to a maximum of 40%.",
+            "benefits": ["Provides funds for the child’s education, paid directly to schools or colleges"],
+            "conditions": ["Amount is only payable to recognized educational institutions"],
+            "eligibility": "According to the policy terms and conditions",
+            "cost": "Rs. 1 per 1000 insured amount"
+        },
+        {
+            "name": "Hospital Rider",
+            "description": "Covers up to 30% of the insured amount for hospital expenses during the policy term.",
+            "benefits": ["Provides financial support for hospital treatments"],
+            "conditions": [
+                "Valid for one claim within the policy term and only at partner hospitals"
+            ],
+            "eligibility": "According to the policy terms and conditions",
+            "cost": "Rs. 3 per 1000 insured amount"
+        },
+        {
+            "name": "Time Extension Rider",
+            "description": "Allows policyholders to extend the policy term without recalculating premiums at the current rate.",
+            "benefits": ["Continues coverage without incurring higher premiums due to age or health changes"],
+            "conditions": ["Extension must be requested at the end of the policy term"],
+            "eligibility": "According to the policy terms and conditions",
+            "cost": "Rs. 1 per 1000 insured amount"
+        },
+        {
+            "name": "Funeral Expense Rider",
+            "description": "Provides 5% of the insured amount for funeral expenses in case of the policyholder’s death.",
+            "benefits": ["Eases the financial burden on family for funeral costs"],
+            "conditions": ["Only payable in case of the policyholder’s death"],
+            "eligibility": "According to the policy terms and conditions",
+            "cost": "Rs. 0.25 per 1000 insured amount"
+        },
+        {
+            "name": "Employment Loss No Premium Rider",
+            "description": "Waives premiums if the policyholder loses their job while actively seeking reemployment.",
+            "benefits": ["Provides premium relief during periods of unemployment"],
+            "conditions": ["Proof of unemployment and active job search required"],
+            "eligibility": "According to the policy terms and conditions",
+            "cost": "Rs. 10 per 1000 insured amount"
+        },
+        {
+            "name": "Travel Add-on",
+            "description": "Provides health insurance coverage during travel, up to 50% of the insured amount.",
+            "benefits": ["Covers health-related emergencies while traveling"],
+            "conditions": [
+                "Maximum claim is 50% of the insured amount for travel-related health issues"
+            ],
+            "eligibility": "According to the policy terms and conditions",
+            "cost": "Rs. 5 per 1000 insured amount"
+        },
+        {
+            "name": "Premium Return in Term Life",
+            "description": "Refunds the premium amount at the end of the term if no claims were made.",
+            "benefits": ["Offers a refund of premiums as an additional benefit"],
+            "conditions": [
+                "Only the premium amount is refunded, excluding interest or additional payouts"
+            ],
+            "eligibility": "According to the policy terms and conditions",
+            "cost": "Rs. 3 per 1000 insured amount"
+        }
+    ]
+}

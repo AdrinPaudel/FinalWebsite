@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.yearsLastingContainer {
+  background-color: var(--palewhite);
+  padding-top: 5rem;
+  text-align: center;
+}
+
+h1 {
+  color: var(--darker-secondary);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.inputSection {
+  background-color: var(--light);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px var(--secondaryA);
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.inputSection label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--secondary);
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.inputSection input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.25rem;
+  border: 1px solid var(--secondary);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.yearsTable {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: var(--palewhite);
+  box-shadow: 0 4px 8px var(--secondaryA);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+table thead {
+  background-color: var(--secondary);
+  color: var(--palewhite);
+}
+
+table th, table td {
+  padding: 1rem;
+  border-bottom: 1px solid var(--light);
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: var(--palewhiteA);
+}
+
+.positive {
+  color: var(--green);
+  font-weight: bold;
+}
+
+.negative {
+  color: red;
+  font-weight: bold;
+}

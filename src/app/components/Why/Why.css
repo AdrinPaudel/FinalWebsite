@@ -1,0 +1,75 @@
+.why {
+    max-width: 100vw;
+    font-family: "Quicksand", sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 5vw;
+}
+
+.heading {
+    color: var(--primary);
+    font-size: 5vh;
+    font-weight: bold;
+    padding-bottom: 1vh;
+    text-align: center;
+}
+
+.description {
+    color: var(--tertiary);
+    font-size: 1.2rem;
+    padding-bottom: 5vh;
+    text-align: center;
+}
+
+.allTheWhyContainer {
+    width: 90vw;
+    gap: 2vw;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.whyItem {
+    background-color: var(--background);
+    border-radius: 1vw;
+    transition: 0.3s ease;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+.whyItem:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 .6vh 2vh 0.5vh var(--secondaryA);
+}
+
+.whyHeader {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.4vh;
+    color: var(--primary);
+    min-width: 9.8vh;
+}
+
+.whyContent {
+    font-size: 1rem;
+    display: flex;
+    align-items: flex-start;
+    flex: 1;
+    flex-direction: column;
+    padding: 2vw;
+    color: var(--tertiary);
+}
+
+.whyText {
+    margin-right: 1vh;
+}
+
+.showMore {
+    color: var(--primary);
+    font-size: 1rem;
+    text-decoration: none;
+    display: block;
+}

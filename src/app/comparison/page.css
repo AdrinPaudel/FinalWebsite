@@ -1,0 +1,370 @@
+:root {
+  --margin-right: 20vw;
+  --heading-font-size: 4rem;
+}
+
+#compareContainer {
+  padding-top: 10vh;
+  top: 20vh;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.compareContents {
+  width: 80vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  display: flex;
+  background-color: var(--palewhite);
+}
+
+#searchPlans {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: first baseline;
+}
+
+.fattext {
+  font-size: 1.5rem;
+  color: var(--tertiary);
+  font-weight: 600;
+}
+
+#searchSpan {
+  color: var(--primary);
+  font-size: var(--heading-font-size);
+}
+
+#planSpan {
+  margin-left: 0.5vw;
+  color: var(--secondary);
+  font-size: var(--heading-font-size);
+}
+
+#datafieldLeft {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+#datafieldLeft input[type="text"],
+#datafieldRight input[type="text"] {
+  border: none;
+  padding: 0.5vw;
+  border-radius: 0.5vw;
+  width: 80%;
+}
+
+#datafieldRight {
+  width: 50%;
+  gap: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+span#type,
+span#gender,
+span#term {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  margin-bottom: 2vw;
+  color: var(--secondaryA);
+  font-weight: bold;
+}
+
+span#gender::before {
+  content: "Gender";
+}
+
+span#term::before {
+  content: "Term";
+}
+
+span#type::before {
+  content: "Type(optional)";
+}
+
+span#gender::before,
+span#type::before,
+span#term::before {
+  position: absolute;
+  font-weight: bold;
+  font-size: 1.5rem;
+  width: 100%;
+  transform: translateY(-100%);
+  color: var(--tertiary);
+}
+
+input[type="radio"] {
+  margin-right: 0.5vw;
+}
+
+#chooseBreak {
+  height: 0.1px;
+  width: 100vw;
+}
+
+div.surrounddatafields {
+  display: flex;
+  flex-direction: row;
+}
+
+#contentChoose {
+  width: 30%;
+  height: 10vh;
+  background-color: var(--palewhite);
+  border-radius: 0.5vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--secondary);
+  position: relative;
+}
+
+#contentChoose div {
+  min-width: fit-content;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  font-weight: bold;
+  position: relative;
+}
+
+#contentChoose #selectPanel {
+  height: 70%;
+  width: 33%;
+  border-radius: 0.5vw;
+  background-color: var(--primary);
+  position: absolute;
+  left: 0;
+  z-index: 0;
+}
+
+#contentChoose #contentChooseCurrent {
+  color: var(--palewhite);
+}
+
+#contentChooseContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary);
+}
+
+.comparisonView {
+  display: flex;
+  align-items: flex-start; 
+  justify-content: space-between; 
+  gap: 0vw; 
+}
+
+
+#majorView {
+  flex: 1;
+  background-color: var(--palewhite);
+  border-radius: 1vw;
+  padding-bottom: 13vh;
+  padding-left: 2vh;
+  padding-top: 13vh;
+  font-weight: 500;
+  color: var(--secondary);
+  align-self: flex-start;
+  min-width: 250px
+}
+
+#AddonAccept {
+  background-color: var(--secondary);
+  border: none;
+  padding: 2vh;
+  margin: 1vh;
+  border-radius: 1vw;
+  color: var(--palewhite);
+  font-weight: 900;
+  font-size: 1.5vw;
+  cursor: pointer;
+}
+
+.addonsNamesFree {
+  color: var(--secondary);
+}
+
+.addonsNamesPaid {
+  color: var(--green);
+  font-weight: bold;
+  border-radius: 2rem;
+  transition: 0.3s ease;
+}
+
+.hiddenDetails,
+.hiddenAddons {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+.detailsTitle
+.addonsTitle {
+  cursor: pointer;
+}
+
+.filteredPolicies {
+  margin: 0.2vw;
+  padding: 3vw;
+  border-radius: 2vw;
+  width: 70%;
+  background-color: var(--secondaryA);
+  position: relative;
+  color: var(--secondary);
+  transition: height 0.3s ease-in-out;
+}
+
+/* .filteredPolicies:hover {
+  height: auto;
+} */
+
+.cardAddons {
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: fit-content;
+  margin: 2rem;
+  margin-left: 0rem;
+  color: var(--secondary);
+  transition: 0.2s ease;
+}
+
+/* .cardAddons:hover .cardAddonsContent {
+  height: auto;
+  padding: 2vw;
+} */
+
+.cardAddonsContent {
+  height: 0;
+  border-radius: 1vw;
+  transition: 0.3s ease;
+  overflow: hidden;
+  position: relative;
+}
+
+/* .filteredPolicies:hover .cardAddonsContent {
+  height: auto;
+  overflow: visible;
+} */
+
+
+
+#policyCards {
+  flex: 3;
+  padding-top: 14vh;
+  padding-left: 7vh;
+}
+
+.cardscompany {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+
+.cardPolicyId {
+  top: 0;
+  left: 0;
+  font-size: 1.0rem;
+  padding: 1.4vw;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  color: var(--palewhite);
+  font-weight: bold;
+  background-color: var(--secondary);
+  border-radius: 2rem;
+  display: inline-block;
+  margin: 0vh 2vh;
+}
+
+.cardPolicyId::before {
+  content: "ID:";
+  font-size: 0.7rem;
+  margin-right: 1rem;
+  opacity: 0.7;
+}
+
+
+.cardAddonsContent {
+  /* max-height: none; */
+  overflow: visible;
+  padding: 1rem;
+  border-radius: 1vw;
+  height: fit-content;
+}
+
+/* .filteredPolicies:hover {
+  height: auto;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add oval background for Company Name, CSR, and Cost */
+.cardCompanyName,
+.cardCSR,
+.cardCost {
+  display: inline-block; /* Keeps the shape around text */
+  padding: 0.8rem 1.5rem; /* Adds spacing inside */
+  border-radius: 50px; /* Creates the oval effect */
+  background-color: var(--palewhite); /* Matches the theme */
+  color: var(--secondary); /* Ensures readability */
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional subtle shadow */
+}
+.cardPred {
+  color: var(--palewhite);
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  font-weight: bold;
+  border-radius: 1.5vh;
+  display: inline-block;
+  background: linear-gradient(to right, var(--green), var(--secondary), var(--primary));
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), inset 0 0 2000px var(--secondaryA);
+}
+
+/* Ensure CSR and Company Name are aligned properly */
+.cardCompanyName {
+  background-color: var(--green); /* Unique color for company */
+  color: var(--palewhite);
+}
+
+.cardCSR {
+  background-color: var(--secondary); /* Unique color for CSR */
+  color: var(--palewhite);
+}
+
+/* Make Premium and Add-on Cost stand out */
+.cardCost {
+  background: linear-gradient(to right, var(--green), var(--secondary));
+  color: var(--palewhite);
+}
+

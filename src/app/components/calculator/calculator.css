@@ -1,0 +1,53 @@
+
+.calculatorCard{
+    margin: 0.2vw;
+    padding: 1vw;
+    border-radius: 2vw;
+    width: 70%;
+    background-color: var(--secondaryA);
+    position: relative;
+  }
+  
+  .yearHeading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: var(--secondary);
+   }
+   /*
+  .lastingYear {
+    text-align: center;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--palewhite);
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    background: linear-gradient(to right, var(--green), var(--secondary));
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1), inset 0 0 5px rgba(255, 255, 255, 0.2);
+    position: relative;
+  } */
+  
+  .lastingYear {
+    color: var(--green);
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: inline;
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .subDetails {
+    font-size: 0.9rem;
+    color: var(--tertiary);
+    margin-top: 0.5rem;
+    display: block;
+    text-align: center;
+  }

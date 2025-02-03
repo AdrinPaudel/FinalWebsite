@@ -1,0 +1,232 @@
+.reviews {
+    max-width: 100vw;
+    font-family: "Quicksand", sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 5vw;
+}
+
+.heading {
+    color: var(--primary);
+    font-size: 5vh;
+    font-weight: bold;
+    padding-bottom: 1vh;
+    border-bottom: 1px solid var(--light);
+    display: flex;
+    flex-direction: row;
+}
+
+.headingTitle {
+    flex: 10;
+    text-align: left;
+}
+
+.arrow {
+    flex: 1;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+}
+
+.arrowLeft {
+    font-size: 1.8em;
+    transform-origin: 100% 62%;
+    transform: translate(0px) scale(1);
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.arrowLeft:hover {
+    transform: translateX(0px) scale(1.5);
+}
+
+.arrowRight {
+    font-size: 1.8em;
+    transform-origin: 0% 62%;
+    transform: translate(0px) scale(1);
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.arrowRight:hover {
+    transform: translate(0px) scale(1.5);
+}
+
+.allReviewsContainer {
+    width: 90vw;
+    gap: 2vw;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    padding-top: 3vh;
+    flex-wrap: nowrap;
+    position: relative;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-out-left {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.fade-out-right {
+    opacity: 0;
+    transform: translateX(100%);
+}
+
+.fade-in-left {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: fadeInFromLeft 0.5s forwards;
+}
+
+.fade-in-right {
+    opacity: 0;
+    transform: translateX(100%);
+    animation: fadeInFromRight 0.5s forwards;
+}
+
+@keyframes fadeInFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInFromRight {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.reviewBatch {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    min-width: 30%;
+}
+
+.review {
+    background-color: var(--background);
+    border-radius: 1vw;
+    transition: 0.3s ease;
+    display: flex;
+    flex-direction: row;
+}
+
+.review:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 .6vh 2vh 0.5vh var(--secondaryA);
+}
+
+.reviewContent {
+    font-size: 1rem;
+    display: flex;
+    align-items: flex-start;
+    flex: 1;
+    flex-direction: column;
+    padding: 2vw;
+    color: var(--tertiary);
+}
+
+.reviewHeader {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.4vh;
+    color: var(--primary);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.reviewerName {
+    flex: 5;
+    padding-left: 1vw;
+    padding-top: 1vh;
+}
+
+.reviewQuote {
+    text-align: right;
+    flex: 1;
+}
+
+.reviewText {
+    margin-right: 1vh;
+}
+
+.reviewerPhoto {
+    height: 150%;
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#reviewer1 {
+    background-image: url("/reviewer1.jpg");
+}
+
+#reviewer2 {
+    background-image: url("/reviewer2.jpg");
+}
+
+#reviewer3 {
+    background-image: url("/reviewer3.jpg");
+}
+
+#reviewer4 {
+    background-image: url("/reviewer4.jpg");
+}
+
+#reviewer5 {
+    background-image: url("/reviewer5.jpg");
+}
+
+#reviewer6 {
+    background-image: url("/reviewer6.jpg");
+}
+
+#reviewer7 {
+    background-image: url("/reviewer7.jpg");
+}
+
+#reviewer8 {
+    background-image: url("/reviewer8.jpg");
+}
+
+#reviewer9 {
+    background-image: url("/reviewer9.jpg");
+}
+
+#reviewer10 {
+    background-image: url("/reviewer10.jpg");
+}
+
+#reviewer11 {
+    background-image: url("/reviewer11.jpg");
+}
+
+#reviewer12 {
+    background-image: url("/reviewer12.jpg");
+}
+
+#reviewer13 {
+    background-image: url("/reviewer13.jpg");
+}
+
+#reviewer14 {
+    background-image: url("/reviewer14.jpg");
+}

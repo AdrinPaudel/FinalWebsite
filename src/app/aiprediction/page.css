@@ -1,0 +1,102 @@
+/* /src/app/aiprediction/page.css */
+
+.fullcontainer{
+    padding-top: 5rem;
+}
+.ai-prediction-container {
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: var(--background); /* light blue-gray from your globals */
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ai-prediction-container h1 {
+    text-align: center;
+    color: var(--darker-secondary);
+    margin-bottom: 1.5rem;
+  }
+  
+  .ai-prediction-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--secondary);
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-group input,
+  .form-group select {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid var(--light);
+    border-radius: 0.5rem;
+    outline: none;
+    transition: border 0.2s ease-in-out;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus {
+    border: 1px solid var(--primary);
+  }
+  
+  button[type="submit"] {
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--palewhite);
+    background: linear-gradient(to right, var(--primary), var(--secondary));
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: background-position 0.3s ease, transform 0.3s ease;
+    background-size: 200% 200%;
+    background-position: 0% 50%;
+  }
+  
+  button[type="submit"]:hover {
+    background-position: 100% 50%;
+    transform: translateY(-3px);
+  }
+  
+  button[type="submit"]:disabled {
+    background: var(--light);
+    cursor: not-allowed;
+  }
+  
+  .prediction-result {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: var(--palewhiteA);
+    border-left: 5px solid var(--primary);
+    border-radius: 0.5rem;
+  }
+  
+  .prediction-result h2 {
+    margin-top: 0;
+    color: var(--darker-secondary);
+  }
+  
+  .prediction-result p {
+    font-size: 1.2rem;
+    color: var(--darker-secondary);
+  }
+  
+  .error {
+    margin-top: 1rem;
+    color: var(--secondary);
+    font-weight: 700;
+    text-align: center;
+  }
+  

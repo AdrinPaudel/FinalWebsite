@@ -1,0 +1,122 @@
+.plans {
+    max-width: 100vw;
+    font-family: "Quicksand", sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 5vw;
+}
+
+.heading {
+    color: var(--primary);
+    font-size: 5vh;
+    font-weight: bold;
+    padding-bottom: 1vh;
+    border-bottom: 1px solid var(--light);
+}
+
+.allThePlansContainer {
+    width: 90vw;
+    gap: 2vw;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 7vh;
+}
+
+.plan {
+    background-color: var(--background);
+    border-radius: 1vw;
+    transition: 0.3s ease;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+.plan:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 .6vh 2vh 0.5vh var(--secondaryA);
+}
+
+.planHeader {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.4vh;
+    color: var(--primary);
+    min-width: 9.8vh;
+}
+
+.planContent {
+    font-size: 1rem;
+    display: flex;
+    align-items: flex-start;
+    flex: 1;
+    flex-direction: column;
+    padding: 2vw;
+    color: var(--tertiary);
+}
+
+.planText {
+    margin-right: 1vh;
+}
+
+.imageContainer {
+    position: relative;
+    flex: 1;
+    width: 5vw;
+}
+
+.imageContainer .planImg {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1vw 1vw 1vw 1vw;
+    position: relative;
+}
+
+#endowmentphoto {
+    background-image: url("/test1.jpg");
+}
+
+#termlifephoto {
+    background-image: url("/test2.jpg");
+}
+
+#moneybackphoto {
+    background-image: url("/test3.jpg");
+}
+
+.imageExtension {
+    position: absolute;
+    text-align: center;
+    top: 2vh;
+    padding: 1vh;
+    padding-bottom: 1.5vw;
+    left: 50%;
+    transform: translate(-50%, -100%);
+
+    background-image: linear-gradient(to right, var(--primary), var(--secondary), var(--primary));
+    background-size: 200% 100%;
+    background-position: 0% 0%;
+
+    color: var(--palewhite);
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 1vw 1vw 0 0;
+    transition: 0.25s;
+}
+
+.plan:hover .imageExtension {
+    background-position: 100% 0%;
+}
+
+.showMore {
+    color: var(--primary);
+    font-size: 1rem;
+    text-decoration: none;
+    display: block;
+}

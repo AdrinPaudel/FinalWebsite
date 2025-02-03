@@ -1,0 +1,7 @@
+[
+    { "min": 25000, "max": 49000, "rebate1": 0.5, "rebate2": 0.25, "rebate3": 1 },
+    { "min": 50000, "max": 99000, "rebate1": 1.0, "rebate2": 0.5, "rebate3": 1.25 },
+    { "min": 100000, "max": 199000, "rebate1": 1.5, "rebate2": 1.0, "rebate3": 1.75 },
+    { "min": 200000, "max": null, "rebate1": 2.0, "rebate2": 2.0, "rebate3": 2.5 }
+  ]
+  

@@ -1,0 +1,24 @@
+[
+    { "policyNumber": 1, "name": "Himalayan Life Endowment Plan", "csr": 88.3 },
+    { "policyNumber": 2, "name": "Himalayan Life Bachhat Beema Plan", "csr": 92.1 },
+    { "policyNumber": 3, "name": "Himalayan Life Sunaulo Bhabishya Plan", "csr": 86.5 },
+    { "policyNumber": 4, "name": "Lic Endowment Plan", "csr": 89.2 },
+    { "policyNumber": 5, "name": "Lic Unnat Plan", "csr": 91.4 },
+    { "policyNumber": 6, "name": "Lic Sajilo Beema Plan", "csr": 94.0 },
+    { "policyNumber": 7, "name": "Nepal Life Endowment Plan", "csr": 87.7 },
+    { "policyNumber": 8, "name": "Nepal Life Safalta Plan", "csr": 90.3 },
+    { "policyNumber": 9, "name": "Nepal Life Uttam Beema Plan", "csr": 93.5 },
+    { "policyNumber": 10, "name": "Himalayan Life Money Back Plan", "csr": 85.6 },
+    { "policyNumber": 11, "name": "Himalayan Life Bhabiswa Yojana Plan", "csr": 92.8 },
+    { "policyNumber": 12, "name": "Lic Money Back Plan", "csr": 90.9 },
+    { "policyNumber": 13, "name": "Lic Bhabishya Plan", "csr": 89.6 },
+    { "policyNumber": 14, "name": "Nepal Life Money Back Plan", "csr": 91.1 },
+    { "policyNumber": 15, "name": "Nepal Life Samriddhi Plan", "csr": 94.4 },
+    { "policyNumber": 16, "name": "Himalayan Life Term Life Plan", "csr": 86.9 },
+    { "policyNumber": 17, "name": "Himalayan Life Suraksha Beema Plan", "csr": 93.1 },
+    { "policyNumber": 18, "name": "Lic Term Life Plan", "csr": 89.9 },
+    { "policyNumber": 19, "name": "Lic Jeevan Suraksha Plan", "csr": 95.0 },
+    { "policyNumber": 20, "name": "Nepal Life Term Life Plan", "csr": 87.2 },
+    { "policyNumber": 21, "name": "Nepal Life Jeevan Shakti Plan", "csr": 91.7 }
+  ]
+  

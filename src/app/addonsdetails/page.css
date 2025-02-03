@@ -1,0 +1,74 @@
+#Container {
+  padding-top: 5rem;
+}
+
+.addonDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.heading {
+  font-size: 2rem;
+  color: #476db3;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.addonBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  gap: 2rem;
+}
+
+.addonDetails {
+  flex: 3;
+  padding-right: 1.5rem;
+  border-right: 1px solid #dcdcdc;
+}
+
+.addonDetails h2 {
+  color: #476db3;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.detailsSection {
+  margin-top: 1rem;
+}
+
+.detailsSection h3 {
+  margin-bottom: 0.5rem;
+  color: #476db3;
+}
+
+.addonList {
+  flex: 0.6;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.addonItem {
+  cursor: pointer;
+  color: #476db3;
+  font-weight: bold;
+  font-size: 0.8rem; /* Reduced font size */
+  transition: color 0.3s ease-in-out;
+}
+
+.addonItem.active {
+  color: #80a6ed;
+}
+
+.addonItem:hover {
+  color: #6e7fa5;
+}
+
+.heading {
+  margin-bottom: 3rem;
+}

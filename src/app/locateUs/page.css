@@ -1,0 +1,53 @@
+#overallContainer {
+  padding-top: 7rem; /* Push content below the fixed navbar */
+}
+
+.locateUsContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: var(--palewhite);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px var(--secondaryA);
+  text-align: center;
+}
+
+h1 {
+  color: var(--secondary);
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: var(--primary);
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--darker-secondary);
+}
+
+a {
+  color: var(--secondary);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Google Maps Embed */
+.mapContainer {
+  width: 100%;
+  margin-top: 20px;
+}
+
+iframe {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px var(--secondaryA);
+}

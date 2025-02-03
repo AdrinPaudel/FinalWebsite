@@ -1,0 +1,25 @@
+{
+    "policies" : [
+        { "policy": 1, "min": 200000, "max": 5000000, "minEntry": 18, "maxEntry": 60, "minYears": 5, "maxYa": "70", "maxYb":"52" },
+        { "policy": 2, "min": 300000, "max": 7500000, "minEntry": 18, "maxEntry": 55, "minYears": 5, "maxYa": "70", "maxYb":"50" },
+        { "policy": 3, "min": 250000, "max": 6000000, "minEntry": 18, "maxEntry": 60, "minYears": 5, "maxYa": "70", "maxYb":"45" },
+        { "policy": 4, "min": 300000, "max": 8000000, "minEntry": 18, "maxEntry": 60, "minYears": 5,  "maxYa": "70", "maxYb":"40"},
+        { "policy": 5, "min": 200000, "max": 5000000, "minEntry": 18, "maxEntry": 60, "minYears": 5,  "maxYa": "70", "maxYb":"50"},
+        { "policy": 6, "min": 400000, "max": 10000000, "minEntry": 18, "maxEntry": 55, "minYears": 5,  "maxYa": "70", "maxYb":"52"},
+        { "policy": 7, "min": 300000, "max": 9000000, "minEntry": 20, "maxEntry": 60, "minYears": 5,  "maxYa": "70", "maxYb":"50"},
+        { "policy": 8, "min": 250000, "max": 7000000, "minEntry": 20, "maxEntry": 55, "minYears": 5,  "maxYa": "70", "maxYb":"50"},
+        { "policy": 9, "min": 300000, "max": 10000000, "minEntry": 20, "maxEntry": 55, "minYears": 5, "maxYa": "70", "maxYb":"30" },
+        { "policy": 10, "min": 500000, "max": 15000000, "minEntry": 18, "maxEntry": 55, "minYears": 5, "maxYa": "65", "maxYb":"25", "exactTerms": [15, 20, 25] },
+        { "policy": 11, "min": 400000, "max": 12000000, "minEntry": 18, "maxEntry": 55, "minYears": 5, "maxYa": "65", "maxYb":"20", "exactTerms": [15, 20] },
+        { "policy": 12, "min": 600000, "max": 16000000, "minEntry": 18, "maxEntry": 55, "minYears": 10,"maxYa": "65", "maxYb":"25", "exactTerms": [15, 20, 25] },
+        { "policy": 13, "min": 350000, "max": 10000000, "minEntry": 18, "maxEntry": 55, "minYears": 5, "maxYa": "65", "maxYb":"20", "exactTerms": [15, 20] },
+        { "policy": 14, "min": 450000, "max": 13000000, "minEntry": 18, "maxEntry": 55, "minYears": 5, "maxYa": "65", "maxYb":"25", "exactTerms": [15, 20, 25] },
+        { "policy": 15, "min": 500000, "max": 14000000, "minEntry": 18, "maxEntry": 55, "minYears": 5, "maxYa": "65", "maxYb":"20", "exactTerms": [15, 20] },
+        { "policy": 16, "min": 400000, "max": 12000000, "minEntry": 18, "maxEntry": 55, "minYears": 10, "maxYa": "65", "maxYb":"30" },
+        { "policy": 17, "min": 250000, "max": 9000000, "minEntry": 18, "maxEntry": 55, "minYears": 10, "maxYa": "65", "maxYb":"30" },
+        { "policy": 18, "min": 350000, "max": 10000000, "minEntry": 18, "maxEntry": 55, "minYears": 10, "maxYa": "65", "maxYb":"30" },
+        { "policy": 19, "min": 300000, "max": 8500000, "minEntry": 18, "maxEntry": 55, "minYears": 10,"maxYa": "65", "maxYb":"30" },
+        { "policy": 20, "min": 500000, "max": 12000000, "minEntry": 18, "maxEntry": 55, "minYears": 10, "maxYa": "65", "maxYb":"30" },
+        { "policy": 21, "min": 600000, "max": 13000000, "minEntry": 18, "maxEntry": 55, "minYears": 10, "maxYa": "65", "maxYb":"30" }
+    ]
+}

@@ -60,10 +60,11 @@ export default function DataFilter(data) {
       if (userInsuredTerm < policy.minYears || userInsuredTerm > maxYearsAllowed) {
         return false; 
       }
+      if (userInsuredAmount > 8 * userIncome) {
+        return false; // Insured amount exceeds 8 times income, exclude this policy
+      }
       return true; 
     });
-
-
   // Log filtered policies to see which are available
 
   return filteredPolicies

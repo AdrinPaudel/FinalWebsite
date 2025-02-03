@@ -368,3 +368,34 @@ div.surrounddatafields {
   color: var(--palewhite);
 }
 
+.noPolicies{
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--heading-font-size);
+}
+
+
+.noPolicies {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--secondary); /* Ensures consistent text color */
+  font-size: 2rem; /* Matches text size with other elements */
+  font-weight: bold; /* Adds emphasis to the message */
+  background-color: var(--palewhite); /* Matches other card backgrounds */
+  border-radius: 1vw; /* Consistent border radius */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow to match other card elements */
+  text-align: center; /* Ensures text is centered */
+  padding: 2vh; /* Adds some internal spacing */
+  opacity: 0.9; /* Slight transparency for consistency with other elements */
+}
+
+.noPolicies span {
+  font-size: 1.5rem; /* Slightly smaller text for the subtext */
+  font-weight: normal; /* Ensures subtext is more subtle */
+}
